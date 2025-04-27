@@ -1,0 +1,6 @@
+module ReverseApp {
+  interface Reverse {
+    string reverse_string(in string str);
+    string uppercase(in string str);
+  };
+};

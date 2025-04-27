@@ -1,0 +1,22 @@
+Setup of jdk 8 and jdk 24 and netbean 25 
+Create new project (java maven ->web service)
+Create new web service 
+By default code of name return
+Properties go select jdk 8 
+Clean and build 
+Run the project (deployed)
+Create new project named web client 
+Edit index.html 
+Add form (input button,submit button)
+Right click web service client and select the server and connect it.
+Click source packages and creat new servlet give exact name u created at the time of index.html
+In servlet file drag and drop the methods ex hello file
+Now clean and type some new code 
+In same file above take input using get param method 
+For getting input of number double.parseDouble get param
+And below call the function u created at the bottom 
+Run index.html file in client
+
+
+double num1 = Double.parseDouble(request.getParameter("num1"));
+double num2 = Double.parseDouble(request.getParameter("num2"));

@@ -1,0 +1,15 @@
+1st terminal
+java *.java
+rmiregistry
+
+2nd terminal 
+java Server
+
+3rd terminal
+java Client
+Enter Input
+
+Formulas:
+P*R*N/100 simple interest
+F=C*(9/5) + 32
+Miles=Kilometer*1.6

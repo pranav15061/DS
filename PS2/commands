@@ -1,0 +1,12 @@
+nano ~/.bashrc
+export MPJ_HOME=/home/..../mpj
+export PATH=$PATH:$MPJ_HOME/bin
+source ~/.bashrc
+
+javac -cp mpj/lib/mpj.jar fileName.java
+mpjrun.sh -cp . -np 4 fileName
+
+(extract mpj in same directory)
+https://sourceforge.net/projects/mpjexpress/files/releases/
+
+Crtl O enter cntrl x

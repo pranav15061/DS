@@ -1,0 +1,6 @@
+1st terminal
+javac Site.java
+java Site true localhost 5000 5001
+
+2nd terminal
+java Site false localhost 5001 5000
